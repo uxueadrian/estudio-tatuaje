@@ -39,7 +39,7 @@ module.exports = (env, argv) => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: "./public/index.html",
+        template: "./src/template.html",
         favicon: "./public/favicon.svg",
       }),
       ...(isProduction
